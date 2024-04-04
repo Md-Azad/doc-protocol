@@ -17,7 +17,7 @@ const LandingPage =()=>{
                   It doesn&apos;t matter if you have an API if nobody knows how
                   to use it. Teach people the ins and outs of OAuth 2.0 and
                   JWTs in style with Protocol, a beautiful API documentation
-                  template. ohh no.
+                  template.
                 </p>
 
                 <div className="mt-10 flex flex-wrap gap-4">
