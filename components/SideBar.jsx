@@ -1,13 +1,39 @@
-import { Nova_Oval } from "next/font/google";
+'use client'
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 const Sidebar = ({ docs }) => {
+    const pathName = usePathname();
+
+    useEffect(()=>{
+      let matchedDocs = docs;
+
+      if(pathName.includes("/tags")){
+        const tag = pathName.split('/')[2]
+        
+        
+      }
+      if(pathName.includes("/author")){
+        const author = pathName.split('/')[2]
+       
+        
+      }
+      if(pathName.includes("/category")){
+        const category = pathName.split('/')[2];
+        
+      }
+
+
+    },[pathName,docs])
+   
+
   const roots = docs.filter((doc) => !doc.parent);
   const nonRoots = Object.groupBy(
     docs.filter((doc) => doc.parent),
     ({ parent }) => parent
   );
-  console.log(nonRoots);
+  // console.log(nonRoots);
 
   return (
     <nav className="hidden lg:mt-10 lg:block">
