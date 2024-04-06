@@ -1,7 +1,19 @@
-const  AuthorPage=({params: {name}})=> {
-    return (
-        <h1>{name}</h1>
-    );
-  }
+import ContentDisplay from "@/components/ContentDisplay";
+import { getDirectory } from "@/lib/doc";
+import { getDocumentByAuthor } from "@/utils/doc-utils";
 
-  export default AuthorPage;
+const AuthorPage = ({ params: { name } }) => {
+    const decodedName = decodeURIComponent(name);
+    // console.log(decodedName)
+  const docs = getDirectory();
+  const matchedDocuments = getDocumentByAuthor(docs, decodedName);
+  console.log("mat",matchedDocuments)
+
+
+  return (
+    <ContentDisplay id={matchedDocuments[0].id} />
+    // <div>{name}</div>
+  );
+};
+
+export default AuthorPage;

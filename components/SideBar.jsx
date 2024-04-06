@@ -28,7 +28,8 @@ const Sidebar = ({ docs }) => {
     }
     else if (pathName.includes("/author")) {
       const author = pathName.split("/")[2];
-      matchedDocs = getDocumentByAuthor(docs, author);
+       const decodedName = decodeURIComponent(author);
+      matchedDocs = getDocumentByAuthor(docs, decodedName);
     }
     else if (pathName.includes("/category")) {
       const category = pathName.split("/")[2];

@@ -2,7 +2,7 @@
 title: 'Resources'
 date: '2024-02-22'
 parent: introduction
-author: Lenevoiya
+author: "Lenevoiya"
 category: resources
 tags: ["getting-started"]
 ---
