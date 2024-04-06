@@ -5,5 +5,5 @@ export function getDocumentByAuthor(docs, author){
     return docs.filter((doc)=> doc.author ===author)
 }
 export function getDocumentByTags(docs, tag){
-    return docs.filter((doc)=> doc.tag.some(inputTag=>inputTag===author))
+    return docs.filter((doc)=> doc.tags?.some((inputTag)=>inputTag===tag))
 }
