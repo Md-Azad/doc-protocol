@@ -1,7 +1,8 @@
+'use client'
 
 const Search =()=>{
     return (
-        <div>Search</div>
+        <div>Search maro vaiya</div>
     )
 
 }
