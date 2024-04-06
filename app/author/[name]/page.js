@@ -4,7 +4,7 @@ import { getDocumentByAuthor } from "@/utils/doc-utils";
 
 const AuthorPage = ({ params: { name } }) => {
     const decodedName = decodeURIComponent(name);
-    // console.log(decodedName)
+  
   const docs = getDirectory();
   const matchedDocuments = getDocumentByAuthor(docs, decodedName);
   console.log("mat",matchedDocuments)
