@@ -36,3 +36,15 @@ cd doc-protocol
 - Navigate by Category: Click on a category to see related blogs.
 - Filter by topic: Find all blogs written by a specific author.
 - Search Blogs: Easily search for blogs by keywords.
+
+## 📦 Dependencies  
+This project uses the following dependencies:  
+
+- `@tailwindcss/aspect-ratio`  
+- `@tailwindcss/typography`  
+- `gray-matter`  
+- `next`  
+- `react`  
+- `react-dom`  
+- `remark`  
+- `remark-html` 
