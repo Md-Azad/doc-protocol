@@ -1,4 +1,4 @@
-# 📝 Next.js 14 Blog Website
+# 📝 Doc Protocol
 
 ## 📌 Introduction  
 This is a **modern blog website** built with **Next.js 14**, allowing users to read blogs, navigate between blogs by **topic, author, and category**, and enjoy a smooth browsing experience.  
@@ -8,7 +8,7 @@ This is a **modern blog website** built with **Next.js 14**, allowing users to r
 ## 🚀 Features  
 ✅ Built with **Next.js 14** for fast performance  
 ✅ Dynamic **blog pages** with seamless navigation  
-✅ Filter blogs by **topic, author, and category**  
+✅ search blogs by **topic, author, and category**  
 ✅ Fully **responsive design** for all devices  
 ✅ **SEO-friendly** structure for better search engine ranking  
 ✅ **Server-side rendering (SSR)** and **static site generation (SSG)** for better performance  
@@ -18,7 +18,7 @@ This is a **modern blog website** built with **Next.js 14**, allowing users to r
 ## 🛠️ Tech Stack  
 - **Frontend:** Next.js 14, React  
 - **Styling:** Tailwind CSS  
-- **Data Fetching:** Next.js Server Actions / API Routes  
+
 
 
 ---
