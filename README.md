@@ -29,9 +29,9 @@ This is a **modern blog website** built with **Next.js 14**, allowing users to r
 ```bash
 git clone https://github.com/your-repo/doc-protocol.git
 cd doc-protocol
-
-
-📚 Usage
+```
+---
+##📚 Usage
 Read Blogs: Browse and read blogs from various authors.
 Navigate by Category: Click on a category to see related blogs.
 Filter by topics: Find all blogs written by a specific author.
