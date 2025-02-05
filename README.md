@@ -31,8 +31,8 @@ git clone https://github.com/your-repo/doc-protocol.git
 cd doc-protocol
 ```
 ---
-##📚 Usage
-  -Read Blogs: Browse and read blogs from various authors.
-  -Navigate by Category: Click on a category to see related blogs.
-  -Filter by topics: Find all blogs written by a specific author.
-  -Search Blogs: Easily search for blogs by keywords.
+📚 Usage
+Read Blogs: Browse and read blogs from various authors.
+Navigate by Category: Click on a category to see related blogs.
+Filter by topic: Find all blogs written by a specific author.
+Search Blogs: Easily search for blogs by keywords.
